@@ -1,4 +1,4 @@
-﻿# Training Exercise GQI Ad Hoc Data Source
+﻿# Training Exercise GQI Ad Hoc Data Source File Explorer
 
 ## Description
 

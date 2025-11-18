@@ -9,7 +9,7 @@ The ad hoc data source must have these input arguments:
 * Search Pattern (string, default: \*.\*)
 * Recursive: Specifies whether the search operation should include only the current directory or all subdirectories (boolean, default: False)
 
-The ad hoc data source returns a list of files with these fields:
+The ad hoc data source should return a list of files with these fields:
 * File Name
 * Path
 * Created
@@ -17,6 +17,8 @@ The ad hoc data source returns a list of files with these fields:
 * Size
 * Type
 * Read Only
+
+The ad hoc data source must support **real-time updates**. Please think about potential memory leaks.
 
 ![image](https://user-images.githubusercontent.com/110403333/218708219-fa58076d-bdc7-4a22-9df5-1d492a8274e1.png)
 
